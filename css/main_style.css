@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	background: #f4f5f7;
+}
+/*head nav*/
+.head{
+	background: #FFFFFF;
+	top: 0px;
+	z-index: 100;
+	width: 100%;
+	height: 60px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+}
+.head .head_content{
+	float: right;
+	height: 60px;
+	padding-right: 160px;
+    margin: 0 auto;
+}
+.head img{
+	margin-left: 160px;
+	height: 32px;
+	margin-top: 14px;
+}
+.head .head_content nav{
+	text-align: right;
+    padding: 19px;
+}
+.head .head_content nav a{
+	margin: 0 15px;
+	color: #68738a;
+}
+.head .head_content nav a:hover{
+	color: #498dff;
+}
+
+/*search*/

@@ -12,6 +12,7 @@ li{
 a{
 	text-decoration: none;
 }
+
 /*head nav*/
 .headtop{
 	background: #666666;
@@ -24,13 +25,17 @@ a{
 	line-height: 30px;
 	color: #ffffff;
 	margin: 0 10px;
+	font-size: 12px;
 }
+.headtop .amynav{
+	font-size: 12px;	
+	}
 .headtop li span{
 	margin-right: 5px;
 }
 .headtop_content{
 	float: right;
-	margin-right: 300px;
+	margin-right: 200px;
 }
 .headtop_content img{
 	height: 24px;
@@ -51,7 +56,7 @@ a{
 }
 .headnav img{
 	float: left;
-	margin-left: 300px;
+	margin-left: 200px;
 	height: 32px;
 	margin-top: 14px;
 }
@@ -70,7 +75,7 @@ a{
 /*search*/
 #search{
 	float: right;
-	margin-right: 300px;
+	margin-right: 200px;
 }
 .baidulogo{
 	height: 40px;

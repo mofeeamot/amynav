@@ -2,36 +2,111 @@ body{
 	margin: 0;
 	background: #f4f5f7;
 }
+ul{
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: inline;	
+}
+a{
+	text-decoration: none;
+}
 /*head nav*/
-.head{
-	background: #FFFFFF;
+.headtop{
+	background: #666666;
 	top: 0px;
+	z-index: 100;
+	width: 100%;
+	height: 30px;
+}
+.headtop li{
+	line-height: 30px;
+	color: #ffffff;
+	margin: 0 10px;
+}
+.headtop li span{
+	margin-right: 5px;
+}
+.headtop_content{
+	float: right;
+	margin-right: 300px;
+}
+.headtop_content img{
+	height: 24px;
+	margin-top: 3px;
+}
+.headnav{
+	clear: both;
+	background: #FFFFFF;	
 	z-index: 100;
 	width: 100%;
 	height: 60px;
 	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
 }
-.head .head_content{
+.headnav .head_content{
 	float: right;
 	height: 60px;
-	padding-right: 160px;
-    margin: 0 auto;
+    margin: 0;
 }
-.head img{
-	margin-left: 160px;
+.headnav img{
+	float: left;
+	margin-left: 300px;
 	height: 32px;
 	margin-top: 14px;
 }
-.head .head_content nav{
-	text-align: right;
+.headnav .head_content nav{	
     padding: 19px;
 }
-.head .head_content nav a{
+.headnav .head_content nav a{
 	margin: 0 15px;
 	color: #68738a;
 }
-.head .head_content nav a:hover{
+.headnav .head_content nav a:hover{
 	color: #498dff;
 }
 
+
 /*search*/
+#search{
+	float: right;
+	margin-right: 300px;
+}
+.baidulogo{
+	height: 40px;
+	padding-top: 20px;
+	margin-top: 40px;
+	margin-bottom: -10px;
+}
+.searchinput{	
+	border: 1px solid #498dff;
+    padding: 0;
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Arial;
+    color: #68738a;
+    margin: 8px 0 0 60px;
+    outline: 0;
+    background: #fff;
+}
+.btnsearch{
+	width: 104px;
+    height: 42px;
+    line-height: 32px;
+    margin-top: 0;
+    padding-top: 2px;
+    margin-left: -110px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    background: 0 0;
+    background-color: #498dff;
+    box-shadow: none;
+    color: #fff;
+    font-family: Arial;    
+}
+}

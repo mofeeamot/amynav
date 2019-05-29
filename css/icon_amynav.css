@@ -1,0 +1,29 @@
+@font-face {font-family: "amynav";
+  src: url('iconfont.eot?t=1559094564027'); /* IE9 */
+  src: url('iconfont.eot?t=1559094564027#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAATAAAsAAAAACTgAAARyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqGEIUpATYCJAMQCwoABCAFhFUHQhv9B8gusG3kMwtCCrgBgAYcgz1CEMnQ3Y+uMdXWFaaqagHOoTCSeByOeOwSBouQHcIzL/9O38gTeYCD2oHFpcsX6dK0g9LN6eZiFIoJ4CF/9+7/Y9MkTQkkmyqbEgVdyKYIpWsAETPzFcz/88dMl9Y2kGcDgIj8i6TIpuFm0+HAsi/KEugAjw6AT0E8mw46JuhhCIhqSodsDe26ATdOXSdALlIqBG4RLS+gi7AimHE0yQcCwuVxuADw4vy+/GAON6hApW49rl4Cqu7zzOLI/medLQzgdYcA/hQYmAM45My0PHH0/HOOop9oJxuAsIYUXY0VP7P8/8/wlyINM1bQxv88aanSOIgriW0Yz2BC8VfMzZJZwD8AqVuBMMjFrbIDlVSXEROkE+KuMcZgxBX1Ph64evDtzgWZwrtfyjmG6HK32+08q5Vft8hGvgm1WLqx1vZGY0BIqTnwLE8fHGNAuZZuBik6d61+vW4dt6YbynrvqeGCBDtQzmbL3KTL2my3663WjI0xSyzt8LkBBoE+MCXIND94vx2x2QRtsts/oC8090LZvft1+/bw0bnOJw/Xrw11YtfEe3Hrwpx165Morx1XIpwWXs333n092nnRtW4enIE18jxfs87UAw1wPAyfbtKZR42soVfx4FDB8d68dntHvnGkahG3LK3OPj6TlbWoP2TbJBSezw5tSXjcobFil3FA5+Fp9aOQPeNCydJJeFP7wgERecOQ5ZMdieJSMa7pn7zgjGFbTYnHkvgjnuWD+uWKS1YnA35a1lqfJF8YA2ONK4h6F1Hn9MnppWR8lwb5aHK03Gb5Uq30MsrJfYHxqVXnoUTq0vVD++QBzOt8Po7wJ6kgorEsN8JHugVTUmXZa5CEoLq6NN1zPSDR2V0J8Pl7wDkXLmDDgER2RQKeOGOSO+c+aQbJY7bN4N0NusuzLEt2/wpxYeHwHHDRj3qW2QbWw2n/gWVZbJPj6nt3V5kiR8oGO7h2tVMTYLNK9+9fG5EX8WVkrQbv2RPXjtNZ9rAGHx+ZC1QAcG9fjg7LQkMcUxFkRxyrXqxlvC8Zsaa/d9lXt9iFHfkNcImnrjsH1WTg7eBV5r1GvIod/hWoOk9FaHB/ie4ZxHBv1EQ1A7w8Yci614WtAARIBAUeQIXUwAR1sU4cQ0DMUhzU5HtA1Ezl6ZicNo4kOzA1koCIewWV9AYm7gPrxE8IKLoJQXH/EHXy+8qYYXRGa2koZKAEEw3FSDGlJPRjDCpUDFUKtV2gVCMX0grPWiaAtJqklBiemR0LNUIlpJvuUGulOQxDYARNKbCGVh4H5XIKU9FUGxQzmQMZRlWSlUVkfVKmmFIA1AENEmJAEhiRoTAkMYoSYUUzUI8UX7HS+atWF5CUhpwQjaogXwCiqZHNJ2NwmbILsY1SZYWaQ2eraUnlYDREwIxiGkUB0zAZBMmpn4JRZS9qA4kxMg1s4FUpkUV7EVWlmYuSK86qGDSgvt2jRI2MRvCG5BBS6dJGCpVy0kVNadQaCgAAAA==') format('woff2'),
+  url('iconfont.woff?t=1559094564027') format('woff'),
+  url('iconfont.ttf?t=1559094564027') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1559094564027#amynav') format('svg'); /* iOS 4.1- */
+}
+
+.amynav {
+  font-family: "amynav" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconweixin:before {
+  content: "\e6d4";
+}
+
+.iconjianli:before {
+  content: "\e610";
+}
+
+.iconsousuo:before {
+  content: "\e639";
+}
+

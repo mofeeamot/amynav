@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title>我的导航</title>
 		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="stylesheet" type="text/css" href="css/main_style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main_style.css" />
+		<link rel="stylesheet" type="text/css" href="css/icon_amynav.css" />
 	</head>
+
 	<body>
 		<!--头部-->
 		<div id="head" class="head">
-			<img src="img/logo.svg"/>
-			<div class="head_content">				
+		<div id="headtop" class="headtop">
+			<div class="headtop_content">
+				<ul>
+					<li><a><span class="amynav iconweixin"></span>公众号</a></li>
+					<li><a><span class="amynav iconjianli"></span>我的简历</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div id="headnav" class="headnav">
+			<img src="img/logo.svg" /></li>
+			
+			<form id="search" action="http://www.baidu.com/baidu" target="_blank">
+				<div align="">
+					<input class="searchinput" type="text" name="word" size="42" maxlength="100" tabindex="1" autocomplete="off">
+					<input class="btnsearch" type="submit" value="百度一下"></div>
+			</form>
+			
+			<div class="head_content">
 				<nav>
-					<a>常用推荐</a>
-					<a>UI射击尸</a>
-					<a>开发攻城狮</a>
-					<a>产品运营狗</a>
-					<a>软件工具集</a>
-					<a>综合平台</a>
-					<a>其他</a> 
+					<a href="index.html">我的导航</a>
+					<a>工作相关</a>
+					<a>知识储备</a>
+					<a>软件工具</a>
+					<a>我的笔记</a>
+					<a>个人作品</a>
 				</nav>
 			</div>
 		</div>
-		<div id="container"> 
-<form action="http://www.baidu.com/baidu" target="_blank"> 
-<div align="center"> 
-<input name=tn type=hidden value=baidu> 
-<a href="http://www.baidu.com/"> 
-<img src="http://img.baidu.com/search/img/baidulogo_clarity_80_29.gif" alt="Baidu" align="bottom" border="0"></a> 
-<input type=text name=word size=30> 
-<input type="submit" value="百度搜索"></div> 
-</form> 
-</div> 
+		</div>
+
+		<!--搜索-->
+		<!--<div id="search">
+			<form action="http://www.baidu.com/baidu" target="_blank">
+				<div align="center">				
+					
+						<img class="baidulogo" src="//www.baidu.com/img/baidu_resultlogo@2.png" alt="Baidu" align="bottom" border="0">
+					
+					<input class="searchinput" type="text" name="word" size="42" maxlength="100" tabindex="1" autocomplete="off">
+					<input class="btnsearch" type="submit" value="百度一下"></div>
+			</form>
+		</div>-->
 	</body>
+
 </html>

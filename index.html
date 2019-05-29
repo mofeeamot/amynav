@@ -7,7 +7,7 @@
 		<link rel="shortcut icon" href="img/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/icon_amynav.css" />
 		<link rel="stylesheet" type="text/css" href="css/main_style.css" />
-		<script src="js/icon.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
@@ -16,12 +16,12 @@
 			<div id="headtop" class="headtop">
 				<div class="headtop_content">
 					<ul>
-						<li>
+						<a><li>
 							<a><span class="amynav icon_weixin"></span>公众号</a>
-						</li>
-						<li>
-							<a><span class="amynav icon_wenjian"></span>我的简历</a>
-						</li>
+						</li></a>
+						<a><li>
+							<a><span class="amynav icon_jianli"></span>我的简历</a>
+						</li></a>
 					</ul>
 				</div>
 
@@ -56,7 +56,7 @@
 		<div id="main" class="main">
 			<div class="content_main" style="width: 1200px; margin: 90px auto;">
 
-				<div class="content_left">
+				<!--<div class="content_left">
 					<div class="lei_title">
 						<p><span class="amynav icon_wenjian"></span>最近在看</p>
 					</div>
@@ -100,28 +100,138 @@
 							</li>
 						</ul>
 					</div>
-				</div>
+				</div>-->
 				<div class="content_right">
-					<div class="tuijian">
+					<div id="tuijian" class="tuijian mar_b20">
 						<div class="lei_title">
-						<p><span class="amynav icon_wenjian"></span>常用推荐</p>
+							<p><span class="amynav icon_biaoqian"></span>常用推荐</p>
+						</div>
+						<div class="navlist">
+							<ul>
+								<a href="www.baidu.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_icon_baidu"></use>
+										</svg>
+										<p><b>百度</b></br><span>搜索引擎</span></p>
+									</li>
+								</a>
+								<a href="https://www.behance.net/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_behance"></use>
+										</svg>
+										<p><b>Behance</b></br><span>Adobe旗下的设计师交流平台</span></p>
+									</li>
+								</a>
+								<a href="http://www.dribbble.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_dribbble"></use>
+										</svg>
+										<p><b>Dribbble</b></br><span>设计师作品分享平台</span></p>
+									</li>
+								</a>
+								
+								<a href="https://github.com/mofeeamot/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_github"></use>
+										</svg>
+										<p><b>Github</b></br><span>开源平台，我的主页</span></p>
+									</li>
+								</a>
+								<a href="https://huaban.com/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_huabanwang"></use>
+										</svg>
+										<p><b>花瓣网</b></br><span>设计灵感采集站</span></p>
+									</li>
+								</a>
+								<a href="https://huaban.com/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_huabanwang"></use>
+										</svg>
+										<p><b>站酷</b></br><span>设计师交流平台</span></p>
+									</li>
+								</a>
+								<a href="https://huaban.com/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_uizhongguo"></use>
+										</svg>
+										<p><b>UI中国</b></br><span>设计师交流平台</span></p>
+									</li>
+								</a>
+								<a href="https://huaban.com/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_iconfont"></use>
+										</svg>
+										<p><b>confont</b></br><span>字体图标下载平台</span></p>
+									</li>
+								</a>
+								<a href="https://ibaotu.com/" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_baotu"></use>
+										</svg>
+										<p><b>包图网</b></br><span>素材下载平台</span></p>
+									</li>
+								</a>
+							</ul>
+						</div>
 					</div>
-					<div class="navlist">
-						<ul>
-							<li>
-								<svg class="icon" aria-hidden="true"><use xlink:href="#icon_Dribbble"></use></svg>
-								<p>Dribbble</br><span>设计师作品分享平台</span></p>
-							</li>
-							<li>
-								<svg class="icon" aria-hidden="true"><use xlink:href="#icon_behance-square"></use></svg>
-								<p>Behance</br><span>Adobe旗下的设计师交流平台</span></p>
-							</li>
-							<li>
-								<svg class="icon" aria-hidden="true"><use xlink:href="#icon_Dribbble"></use></svg>
-								<p>Dribbble</br><span>设计师作品分享平台</span></p>
-							</li>
-						</ul>
-					</div>
+					<div id="shejipt" class="tuijian shejipt mar_b20">
+						<div class="lei_title">
+							<p><span class="amynav icon_biaoqian"></span>设计平台</p>
+						</div>
+						<div class="navlist">
+							<ul>
+								<a href="www.baidu.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_Dribbble"></use>
+										</svg>
+										<p><b>Dribbble</b></br><span>设计师作品分享平台</span></p>
+									</li>
+								</a>
+								<a href="www.baidu.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_behance-square"></use>
+										</svg>
+										<p><b>Behance</b></br><span>Adobe旗下的设计师交流平台</span></p>
+									</li>
+								</a>
+								<a href="www.baidu.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_Dribbble"></use>
+										</svg>
+										<p><b>Dribbble</b></br><span>设计师作品分享平台</span></p>
+									</li>
+								</a>
+								<a href="www.baidu.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_behance-square"></use>
+										</svg>
+										<p><b>Behance</b></br><span>Adobe旗下的设计师交流平台</span></p>
+									</li>
+								</a>
+								<a href="www.baidu.com" target="_blank">
+									<li>
+										<svg class="icon" aria-hidden="true">
+											<use xlink:href="#icon_Dribbble"></use>
+										</svg>
+										<p><b>Dribbble</b></br><span>设计师作品分享平台</span></p>
+									</li>
+								</a>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

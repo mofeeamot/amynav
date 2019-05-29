@@ -4,58 +4,129 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>我的导航</title>
-		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/icon_amynav.css" />
 		<link rel="stylesheet" type="text/css" href="css/main_style.css" />
-		
+		<script src="js/icon.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
-		<!--头部-->
+		<!--//头部-->
 		<div id="head" class="head">
-		<div id="headtop" class="headtop">
-			<div class="headtop_content">
-				<ul>
-					<li><a><span class="amynav iconweixin"></span>公众号</a></li>
-					<li><a><span class="amynav iconjianli"></span>我的简历</a></li>
-				</ul>
-			</div>
-			
-		</div>
-		<div id="headnav" class="headnav">
-			<img src="img/logo.svg" /></li>
-			
-			<form id="search" action="http://www.baidu.com/baidu" target="_blank">
-				<div align="">
-					<input class="searchinput" type="text" name="word" placeholder="百度搜索" size="42" maxlength="100" tabindex="1" autocomplete="off">
-					<button class="btnsearch" type="submit" ><span class="amynav iconsousuo"></span></button>					
+			<div id="headtop" class="headtop">
+				<div class="headtop_content">
+					<ul>
+						<li>
+							<a><span class="amynav icon_weixin"></span>公众号</a>
+						</li>
+						<li>
+							<a><span class="amynav icon_wenjian"></span>我的简历</a>
+						</li>
+					</ul>
 				</div>
-			</form>
-			
-			<div class="head_content">
-				<nav>
-					<a href="index.html">我的导航</a>
-					<a>工作相关</a>
-					<a>知识储备</a>
-					<a>软件工具</a>
-					<a>我的笔记</a>
-					<a>个人作品</a>
-				</nav>
+
+			</div>
+			<div id="headnav" class="headnav">
+				<div class="head_content">
+					<img src="img/logo.svg" />
+
+					<form id="search" action="http://www.baidu.com/baidu" target="_blank">
+						<div align="">
+							<input class="searchinput" type="text" name="word" placeholder="百度搜索" size="42" maxlength="100" tabindex="1" autocomplete="off">
+							<button class="btnsearch" type="submit"><span class="amynav icon_sousuo"></span></button>
+						</div>
+					</form>
+
+					<div class="headnav_content">
+						<nav>
+							<a href="index.html">我的导航</a>
+							<a>工作相关</a>
+							<a>知识储备</a>
+							<a>软件工具</a>
+							<a>我的笔记</a>
+							<a>个人作品</a>
+						</nav>
+					</div>
+				</div>
 			</div>
 		</div>
-		</div>
+		<!--头部//-->
 
-		<!--搜索-->
-		<!--<div id="search">
-			<form action="http://www.baidu.com/baidu" target="_blank">
-				<div align="center">				
-					
-						<img class="baidulogo" src="//www.baidu.com/img/baidu_resultlogo@2.png" alt="Baidu" align="bottom" border="0">
-					
-					<input class="searchinput" type="text" name="word" size="42" maxlength="100" tabindex="1" autocomplete="off">
-					<input class="btnsearch" type="submit" value="百度一下"></div>
-			</form>
-		</div>-->
+		<!--//导航-->
+		<div id="main" class="main">
+			<div class="content_main" style="width: 1200px; margin: 90px auto;">
+
+				<div class="content_left">
+					<div class="lei_title">
+						<p><span class="amynav icon_wenjian"></span>最近在看</p>
+					</div>
+					<div class="looklist">
+						<ul>
+							<li>
+								<a href="https://www.jianshu.com/p/7337c2f56876" target="_blank"><span>[解决方案]</span>Echarts搞定各种地图（想怎么画就怎么画）</a>
+								<p><span>简书</span><span>Echarts</span><span>地图</span></p>
+							</li>
+							<li>
+								<a href="https://www.jianshu.com/p/7337c2f56876" target="_blank"><span>[网站]</span>在线绘制 geoJson 的网站，随意绘制样式并输出 geoJson 数据</a>
+								<p><span>geoJson</span><span>Echarts</span><span>地图</span></p>
+							</li>
+							<li>
+								<a href="https://www.cnblogs.com/zamhown/p/6688369.html" target="_blank"><span>[实用教程]</span>大杀器Bodymovin和Lottie：把AE动画转换成HTML5/Android/iOS原生动画</a>
+								<p><span>AE</span><span>Bodymovin</span><span>Lottie</span><span>SVG</span></p>
+							</li>
+							<li>
+								<a href="https://www.jianshu.com/p/7337c2f56876" target="_blank"><span>[解决方案]</span>Echarts搞定各种地图（想怎么画就怎么画）</a>
+								<p><span>简书</span><span>Echarts</span><span>地图</span></p>
+							</li>
+							<li>
+								<a href="https://www.jianshu.com/p/7337c2f56876" target="_blank"><span>[网站]</span>在线绘制 geoJson 的网站，随意绘制样式并输出 geoJson 数据</a>
+								<p><span>geoJson</span><span>Echarts</span><span>地图</span></p>
+							</li>
+							<li>
+								<a href="https://www.cnblogs.com/zamhown/p/6688369.html" target="_blank"><span>[实用教程]</span>大杀器Bodymovin和Lottie：把AE动画转换成HTML5/Android/iOS原生动画</a>
+								<p><span>AE</span><span>Bodymovin</span><span>Lottie</span><span>SVG</span></p>
+							</li>
+							<li>
+								<a href="https://www.jianshu.com/p/7337c2f56876" target="_blank"><span>[解决方案]</span>Echarts搞定各种地图（想怎么画就怎么画）</a>
+								<p><span>简书</span><span>Echarts</span><span>地图</span></p>
+							</li>
+							<li>
+								<a href="https://www.jianshu.com/p/7337c2f56876" target="_blank"><span>[网站]</span>在线绘制 geoJson 的网站，随意绘制样式并输出 geoJson 数据</a>
+								<p><span>geoJson</span><span>Echarts</span><span>地图</span></p>
+							</li>
+							<li>
+								<a href="https://www.cnblogs.com/zamhown/p/6688369.html" target="_blank"><span>[实用教程]</span>大杀器Bodymovin和Lottie：把AE动画转换成HTML5/Android/iOS原生动画</a>
+								<p><span>AE</span><span>Bodymovin</span><span>Lottie</span><span>SVG</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content_right">
+					<div class="tuijian">
+						<div class="lei_title">
+						<p><span class="amynav icon_wenjian"></span>常用推荐</p>
+					</div>
+					<div class="navlist">
+						<ul>
+							<li>
+								<svg class="icon" aria-hidden="true"><use xlink:href="#icon_Dribbble"></use></svg>
+								<p>Dribbble</br><span>设计师作品分享平台</span></p>
+							</li>
+							<li>
+								<svg class="icon" aria-hidden="true"><use xlink:href="#icon_behance-square"></use></svg>
+								<p>Behance</br><span>Adobe旗下的设计师交流平台</span></p>
+							</li>
+							<li>
+								<svg class="icon" aria-hidden="true"><use xlink:href="#icon_Dribbble"></use></svg>
+								<p>Dribbble</br><span>设计师作品分享平台</span></p>
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航//-->
 	</body>
 
 </html>
